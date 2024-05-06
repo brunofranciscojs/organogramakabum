@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>ORGANOGRAMA KABUM</title>
+    <link rel="stylesheet" href="./css/organograma.css">
+    <link rel="stylesheet" href="./css/busca.css">
+    <link rel="manifest" href="./manifest.json">
+
+</head>
+<body class="font-['Poppins-Regular']">
+
+    <div class="loading fixed w-full h-screen top-0 right-0 load z-40 flex pointer-events-none">
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+    </div>
+
+    <header class="bg-[#184DFD] py-4 text-white cl:px-10 px-4 header z-50 relative">
+        <nav class="max-w-[1536px] w-full flex justify-between mx-auto items-center">
+             <div>
+                 <img src="img/logo-kabum.webp" class="block w-auto">
+             </div>
+
+                <div class="flex gap-5 items-center">
+                    <!-- <div class="bell selection:bg-transparent translate-x-5 hover:!bg-transparent" onclick="notificou(event)">
+                        <span class="brightness-[5] cursor-pointer">&#128276;</span>
+                        <sup class="bg-red-500 rounded-full h-2 w-2 text-[.5rem] -translate-y-1 -translate-x-3 opacity-0 inline-block"></sup>
+                        <div aniversariantes></div>
+                    </div> -->
+    
+                    <button class="abrir cl:hidden ml-3 text-gray-200 hover:text-white rounded-lg items-center justify-center rotate-90 block p-2 text-2xl hamburger duration-200">
+                        |||
+                    </button>
+    
+    
+                    <div class="hidden cl:block py-4 menu-items" menu style="--cor:#184DFD">
+                        <ul class='flex gap-6'>
+    
+                            <li><a href="./">Organograma</a></li>
+                            <li><a href="#">Intranet</a></li>
+                            <li><a href="#">DNA KaBuM!</a></li>
+                            <li><a href="#">Suporte</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+
+    <section class="mx-auto bg-[url(../img/bg-fixed.png),linear-gradient(to_right,#EEEEEE,#EEEEEE)] bg-fixed bg-[length:100%] w-full relative">
+        <div class="w-full flex items-center max-w-[1536px] mx-auto pt-5 cl:px-12 px-5">
+
+            <div class="justify-self-center z-10 relative text-center cl:text-left w-full cl:w-auto py-10 cl:px-0">
+                <h2 class="font-['Poppins-Bold'] text-[#001753] sm:text-6xl text-[clamp(1.75rem,_0rem_+_11.3333vw,_3.0rem)] leading-none">Nosso <br> Or<i class="-ml-[4px] mr-[4px] inline-block">gan</i>ograma</h2>
+                <br><br>                                                            
+                <p class="text-[#184DFD] text-2xl">Conheça os Ninjas de <b class="font-['Poppins-Bold']">todos os times</b> do KaBuM!</p>
+            </div>
+
+            <div class="hidden cl:block">
+                <img src="img/ninja.webp" class="block w-auto  relative left-20 z-10 -translate-x-20 xl:translate-x-0" draggable="false" />
+            </div>
+
+            <div class="self-end bg-[#184DFD] rounded-full border-2 border-solid border-black justify-self-end [box-shadow:5px_6px_black] z-20 -translate-y-20 lpt:translate-x-7 translate-x-0  hidden xl:block">
+                <span class="[scale:1_.95] inline-block text-[#FFCD2E] tracking-[8px] text-4xl px-12 py-4">◆◆◆◆◆</span>
+            </div>
+
+            <div class="absolute right-0 top-0 z-0 w-auto h-full hidden cl:block">
+                <img src="img/suqres.png" class="block w-full h-full" draggable="false">
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-auto py-10 max-w-[1536px] areasEbusca z-20 relative cl:px-12 px-0">
+        <div class="max-w-[1536px] mx-auto py-10">
+            <div class="flex justify-between cl:px-10 px-5 relative z-10 flex-col sm:flex-row">
+                <h2 class="text-5xl text-[#184DFD] font-['poppins-bold']">Áreas</h2>
+                <br>
+                <div class="busca relative sm:w-3/5 w-full">    
+
+                    <input type="search" placeholder="🔎︎  Digite nome ou cargo do Ninja que quer encontrar..."
+                        class="rounded-3xl py-2 px-4 border border-gray-300 w-full outline-none shadow-xl scroll-m-0 sm:scroll-m-52" />
+
+                    <div resultado></div>
+                </div>
+            </div>
+
+            <div class="max-w-[1536px] areas flex flex-col gap-5 mx-auto text-white w-full"></div>
+        </div>
+    </section>
+
+    <footer class="bg-[#184DFD] mx-auto pt-12">
+        <div class="flex flex-col gap-4">
+            <img src="img/logo-kabum.webp" class="block w-36 h-auto mx-auto">
+            <ul class="sm:w-1/2 w-full lg:w-4/12 social-icons flex justify-center items-center gap-x-8 gap-y-4 mx-auto" kbmicon="icon-color:#fff; bg-color:#053864; hover-color:#FDA602;">
+                <li><a href="https://www.facebook.com/kabumcombr" target="_blank" data-icon="social-facebook"></a></li>
+                <li><a href="https://www.twitter.com/kabumcombr" target="_blank" data-icon="social-x"></a></li>
+                <li><a href="https://www.instagram.com/kabum" target="_blank" data-icon="social-instagram"></a></li>
+                <li><a href="https://www.youtube.com/kabum" target="_blank" data-icon="social-youtube"></a></li>
+                <li><a href="https://www.linkedin.com/company/kabum/" target="_blank" data-icon="social-linkedin"></a>
+                </li>
+            </ul>
+        </div> <br>
+        <div class="bg-[#1F70FF] copyright text-center text-white py-2"></div>
+    </footer>
+    <script src="js/funcoes.js"></script>
+    <script src="js/iconPack.js"></script>
+    <script src="js/menuJS.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/busca.js"></script>
+    <script src="js/organograma.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/organograma/sw.js').then(function(registration) {
+                console.log('Service Worker registered with scope:', registration.scope);
+                }, function(err) {
+                console.log('Service Worker registration failed:', err);
+                });
+            });
+            }
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>ORGANOGRAMA KABUM</title>
+    <link rel="stylesheet" href="css/estilosarea.css" preload>
+    <link rel="stylesheet" href="./css/busca.css" preload>
+
+</head>
+
+<body class="font-['Poppins-Regular'] bg-[--cor] 
+    [&:has(section.FFC200-FFDB00)_[menu]_li:first-child]:bg-[#184DFD] [&:has(section.FFC200-FFDB00)_[menu]_li:first-child]:text-[#FFCD2E] [&:has(section.FFC200-FFDB00)_[menu]_li:hover]:bg-[#184DFD]
+    [&:has(section.FFC200-FFDB00)_[menu]_li]:text-[#184DFD] [&:has(section.FFC200-FFDB00)_[menu]_li:hover]:text-[#FFCD2E]">
+    
+    <aside class="loader fixed w-screen h-screen top-0 right-0 z-[90] pointer-events-none bg-[--cor] animate-[fade_2s_forwards]"></aside>
+    <!-- after:absolute after:content-[--after] after:[zoom:.2] after:left-1/2 after:top-1/2 after:-translate-x-1/2 after:-translate-y-1/2 -->
+    <header class="bg-[--cor] py-4 text-white cl:px-10 px-4 header z-50 relative" >
+        <nav class="max-w-[1536px] w-full flex justify-between mx-auto items-center">
+             <div>
+                 <img src="img/logo-kabum.webp" class="block w-auto">
+             </div>
+
+                <button class="abrir cl:hidden ml-3 text-gray-200 hover:text-white rounded-lg items-center justify-center rotate-90 block p-2 text-2xl hamburger duration-200">
+                    |||
+                </button>
+
+                <div class="hidden cl:block py-4 menu-items" menu>
+                    <ul class='flex gap-6'>
+                        <!-- <li class="bell selection:bg-transparent translate-x-5 hover:!bg-transparent" onclick="notificou(event)">
+                            <span class="brightness-[5] cursor-pointer">&#128276;</span>
+                            <sup class="bg-red-500 rounded-full h-2 w-2 text-[.5rem] -translate-y-1 -translate-x-3 opacity-0 inline-block"></sup>
+                            <div aniversariantes></div>
+                        </li> -->
+                        <li><a href="./">Organograma</a></li>
+                        <li><a href="#">Intranet</a></li>
+                        <li><a href="#">DNA KaBuM!</a></li>
+                        <li><a href="#">Suporte</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+    
+    <section class="mx-auto pt-10 pb-20 cl:px-12 px-5 bg-[--cor] text-[--cor] areasEbusca z-30" id="area">
+        <div class="max-w-[1536px] mx-auto">
+            
+            <div class="flex justify-between relative z-10 flex-col sm:flex-row gap-10">
+
+                <h2 class="text-5xl text-white font-['poppins-bold']">Carregando...</h2>
+                <div class="busca relative w-3/5">
+                    <input type="search" placeholder="🔎︎  Digite nome ou cargo do Ninja que quer encontrar..."
+                        class="rounded-3xl py-2 px-4 border border-gray-300 w-full outline-none shadow-xl scroll-m-0 sm:scroll-m-52" />
+
+                    <div resultado></div>
+                </div>
+            </div>
+
+            <br><br>
+            <div class="max-w-[1536px] head flex mx-auto text-white rounded-3xl items-center cl:h-96 h-auto">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-auto py-10 cl:px-12 px-5 lowerArea bg-white">
+        <div class="max-w-[1536px] breadCumb mx-auto relative">
+            
+            <ol class="flex gap-2 [&>*:hover]:[text-shadow:0_0_1px] [&>*]:duration-150 [&>*]:cursor-pointer">
+                <li onclick="window.location = './'">Áreas</li>
+            </ol>
+        </div>
+        <div class="max-w-[1536px] mx-auto subAreas">
+            <h3 class="text-4xl text-[--tema] font-[poppins-bold] mt-5"></h3>
+            <div class="colaboraderes"></div>
+        </div>
+    </section>
+
+    <footer class="bg-[#184DFD] mx-auto pt-12">
+        <div class="flex flex-col gap-4">
+            <img src="img/logo-kabum.webp" class="block w-36 h-auto mx-auto">
+            <ul class="sm:w-1/2 w-full lg:w-4/12 social-icons flex justify-center items-center gap-x-8 gap-y-4 mx-auto" kbmicon="icon-color:#fff; bg-color:#053864; hover-color:#FDA602;">
+                <li><a href="https://www.facebook.com/kabumcombr" target="_blank" data-icon="social-facebook"></a></li>
+                <li><a href="https://www.twitter.com/kabumcombr" target="_blank" data-icon="social-x"></a></li>
+                <li><a href="https://www.instagram.com/kabum" target="_blank" data-icon="social-instagram"></a></li>
+                <li><a href="https://www.youtube.com/kabum" target="_blank" data-icon="social-youtube"></a></li>
+                <li><a href="https://www.linkedin.com/company/kabum/" target="_blank" data-icon="social-linkedin"></a>
+                </li>
+            </ul>
+        </div> <br>
+        <div class="bg-[#1F70FF] copyright text-center text-white py-2"></div>
+    </footer>
+
+    <script src="js/iconPack.js"></script>
+    <script src="js/smoothScroll.js"></script>
+    <script src="js/menuJS.js"></script>
+    <script src="js/funcoes.js"></script>
+    <script src="js/busca.js"></script>
+    <!-- <script src="js/aniversariante.js"></script> -->
+
+    <script src="js/area.js"></script>
+
+</body>
+</html>
+

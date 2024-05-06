@@ -1,0 +1,13 @@
+{
+    "name": "organograma",
+    "version": "1.0.0",
+    "author": "KaBuM!",
+    "devDependencies": {
+        "tailwindcss": "^3.3.5",
+        "tailwindcss-3d": "^1.0.1"
+    },
+    "dependencies": {
+        "dominant-color": "^0.0.1",
+        "postcss": "^8.4.31"
+    }
+}
