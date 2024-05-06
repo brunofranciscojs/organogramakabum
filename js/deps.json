@@ -1,0 +1,139 @@
+{
+    "Presidência": {
+        "cor": "184DFD-1F70FF"
+    },
+    "Comercial": {
+        "cor": "184DFD-1F70FF",
+        "subareas": {
+            "Comercial CE": "Comercial CE",
+            "Comercial Tech": "Comercial Tech",
+            "Planejamento": {
+                "Inteligência de Mercado": "Inteligência de Mercado",
+                "Marketplace": "Marketplace",
+                "Planejamento Corporativo": "Planejamento Corporativo",
+                "Planejamento de Estoque": "Planejamento de Estoque",
+                "Planejamento Plataformas": "Planejamento Plataformas"
+            },
+            "Private Label": "Private Label"
+        }
+    },
+    "CX": {
+        "cor": "822BD6-B059ED",
+        "subareas": {
+            "Backoffice": "Backoffice",
+            "Inteligência de Clientes": "Inteligência de Clientes"
+        }
+    },
+    "Financeiro": {
+        "cor": "00E3BD-1DFFD4",
+        "subareas": {
+            "Comex": "Comex",
+            "Compras Indiretas": "Compras Indiretas",
+            "Contabilidade": "Contabilidade",
+            "Controladoria": "Controladoria",
+            "Meios de Pagamento": "Meios de Pagamento",
+            "Prevenção à fraude": "Prevenção à fraude",
+            "Tesouraria": "Tesouraria"
+        }
+    },
+    "Gestão de Pessoas": {
+        "cor": "00E3BD-1DFFD4",
+        "subareas": {
+            "Consultoria Interna": "Consultoria Interna",
+            "Cultura e Engajamento": "Cultura e Engajamento",
+            "MDG": "MDG",
+            "Recrutamento e Seleção": "Recrutamento e Seleção",
+            "SHE": "SHE"
+        }
+    },
+    "Jurídico e Governança": {
+        "cor": "00E3BD-1DFFD4",
+        "subareas": {
+            "Governança": {
+                "Auditoria": "Auditoria",
+                "Compliance": "Compliance",
+                "Gestão de Contratos": "Gestão de Contratos",
+                "Controles Internos": "Controles Internos"
+            },
+            "Jurídico": {
+                "Jurídico Geral": "Jurídico Geral",
+                "Jurídico Tributário": "Jurídico Tributário",
+                "Fiscal": "Fiscal"
+            },
+            "Segurança Patrimonial": {
+                "Pátio Office": "Pátio Office",
+                "Logística Reversa": "Logística Reversa",
+                "CD Viana": "CD Viana",
+                "Prevenção de Perdas": "Prevenção de Perdas"
+            }
+        }
+    },
+    "ADS": {
+        "cor": "FFC200-FFDB00"
+    },
+    "KaBuM! GG": {
+        "cor": "FFC200-FFDB00"
+    },
+    "Marketing": {
+        "cor": "FFC200-FFDB00",
+        "subareas": {
+            "Comunicação": {
+                "Influs": "Influs",
+                "Planejamento": "Planejamento",
+                "Social": "Social"
+            },
+            "Criação": {
+                "Design": "Design",
+                "KBM! Studio": "KBM! Studio"
+            },
+            "Performance": {
+                "Campanhas": "Campanhas",
+                "Mídia": "Mídia",
+                "Catálogo e SEO": "Catálogo e SEO"
+            },
+            "CRM":"CRM"
+        }
+    },
+    "Logística e Manutenção": {
+        "cor": "FF5C00-FF8619",
+        "subareas": {
+            "CD Reversa": {
+                "RMA ADM": "RMA ADM",
+                "RMA Produção": "RMA Produção",
+                "Viana - RMA": "Viana - RMA"
+            },
+            "CD Viana": {
+                "Viana ADM": "Viana ADM",
+                "Viana Produção": "Viana Produção"
+            },
+            "Manutenção": {
+                "Viana - Manutenção": "Viana - Manutenção",
+                "Viana - Automação": "Viana - Automação",
+                "Manutenção Limeira": "Manutenção Limeira"
+            },
+            "Qualidade e Inteligência Logística": "Qualidade e Inteligência Logística"
+        }
+    },
+    "T.I.": {
+        "cor": "FF5C00-FF8619",
+        "subareas": {
+            "Backoffice TI": "Backoffice TI",
+            "DeA": "D&A",
+            "Infraestrutura": "Infraestrutura",
+            "Plataformas": "Plataformas",
+            "Projetos e Inovação": "Projetos e Inovação",
+            "Suporte": "Suporte",
+            "UX / UI": "UX / UI",
+            "Viana - Suporte": "Viana - Suporte"
+        }
+    },
+    "Transportes": {
+        "cor": "FF5C00-FF8619",
+        "subareas": {
+            "Contratação de Fretes": "Contratação de Fretes",
+            "Embarque": "Embarque",
+            "Inteligência de Transportes": "Inteligência de Transportes",
+            "Qualidade de Transportes": "Qualidade de Transportes"
+        }
+    }
+}
