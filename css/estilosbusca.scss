@@ -1,0 +1,23 @@
+
+.busca{ @apply z-50 relative;
+        input{ @apply text-gray-900 }
+        div[resultado] { @apply absolute top-5 w-full duration-100 left-1/2 -translate-x-2/4 text-gray-900 overflow-hidden}
+
+        div[buscando]{ @apply border border-gray-300 bg-gray-50/70 flex flex-col justify-start  backdrop-blur-md gap-1 -z-[1] rounded-[0_0_20px_20px] overflow-y-scroll max-h-[500px] pt-6;
+
+            div[achou]{ @apply flex gap-2 hover:bg-[--tema] duration-150;
+
+                img{ @apply w-14 rounded-md h-14 object-cover object-top }
+
+                div{ @apply flex flex-col justify-center gap-1;
+ 
+                    button{ @apply hover:text-[#184DFD] duration-100 [&:empty]:hidden text-left text-current font-[poppins-bold] }
+
+                    sup{ @apply translate-y-[6px] }
+                }
+            }
+        }
+        div[resultado]::-webkit-scrollbar { @apply w-2 }
+        div[resultado]::-webkit-scrollbar-track { @apply bg-transparent }
+        div[resultado]::-webkit-scrollbar-thumb { @apply bg-[#fff] }
+}

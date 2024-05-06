@@ -1,0 +1,72 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../font/Poppins-Bold.woff2);
+}
+@font-face {
+    font-family: "Poppins-Black";
+    src: url(../font/Poppins-Black.woff2);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../font/Poppins-Regular.woff2);
+}
+.header{
+    li { @apply [&:nth-child(1)]:bg-[#FFCD2E] px-2 rounded-md [&:nth-child(1)]:text-[#184DFD] hover:bg-[#FFCD2E] hover:text-[#184DFD] duration-150 relative; }
+}
+.colaborador{
+    @apply sm:pt-5 sm:pb-5 px-5 relative pt-16 pb-8 mt-6 sm:mt-0 cl:gap-14 gap-1;
+    
+    >.figure{ @apply cl:w-[345px] cl:h-[345px] w-[100px] h-[100px] md:self-center self-start absolute sm:relative left-1/2 -translate-x-1/2 top-0 -translate-y-1/2 sm:left-[unset] sm:translate-x-[unset] sm:top-[unset] sm:translate-y-[unset] ;
+
+        .foto{ @apply w-full object-cover rounded-xl object-top h-full block }
+    }
+    >div{ @apply md:w-[63%] w-full h-full flex justify-center flex-col sm:gap-20 gap-5;
+
+        div[flex-top]{ @apply flex justify-center flex-col;
+
+            div[data-name]{ @apply flex justify-between flex-wrap gap-5;
+
+                h2{ @apply cl:text-4xl text-3xl mb-2  font-['Poppins-Bold'] text-inherit flex flex-wrap gap-1 sm:gap-4 items-center capitalize;
+
+                    span{ @apply font-['Poppins-regular'] text-2xl text-[#184DFD] lowercase}
+                }
+
+                a{ @apply lg:order-1 -order-1 flex gap-3 items-center px-2 h-8 rounded-lg bg-white text-[#184DFD] font-['Poppins-Bold'] }
+            }
+            span[data-info]{ @apply sm:text-2xl text-lg leading-none block text-inherit}
+
+            p[data-bio]{ @apply mt-5 text-[#001753] text-lg leading-none }
+        }
+        div[data-badges]{ @apply flex gap-[5px] text-sm sm:text-xl flex-wrap lg:flex-nowrap;
+            
+            span{ @apply rounded-lg flex items-center px-[5px] py-[2px] gap-0.5 }
+            span[data-time]{ @apply bg-[#FFCD2E] text-[#184DFD] font-['Poppins-Bold']}
+            span[data-cipa]{ @apply bg-[#34A853] font-['Poppins-Bold'] text-white }
+            span[data-brigada]{ @apply bg-[#EA4335] font-['Poppins-Bold'] text-white }
+            span[data-star]{ @apply bg-[#FF7900] font-['Poppins-Bold'] text-white }
+            span[data-plus]{ @apply bg-white font-['Poppins-Bold'] text-gray-900}
+        }
+    }
+}
+
+.post{
+    @apply bg-gray-100;
+    
+    h2{ @apply text-3xl text-gray-700 font-['Poppins-Bold'] }
+    
+    a{ @apply text-blue-800 underline }
+}
+
+@keyframes fadeout{ to{ opacity: 1 } }
+
+section, footer, header{
+    @apply animate-[fadeout_.3s_forwards] [animation-delay:.1s] opacity-0
+}
