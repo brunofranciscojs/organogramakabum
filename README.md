@@ -8,6 +8,5 @@ Foi feito inteiramente com javascript e tailwindCSS.
 
 Foi criado um design system pela designer e ficou bem bacana trabalhar em cima disso.
 
-O funcionamento do projeto pode ser visto hein: https://brunofrancisco.com.br/organograma
 
 Estou utilizando dados ficticios criados com chat gpt
