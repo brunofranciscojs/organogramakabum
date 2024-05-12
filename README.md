@@ -8,5 +8,5 @@ Foi feito inteiramente com javascript e tailwindCSS.
 
 Foi criado um design system pela designer e ficou bem bacana trabalhar em cima disso.
 
-
+O funcionamento do projeto pode ser visto em: https://brunofrancisco.com.br/org/
 Estou utilizando dados ficticios criados com chat gpt
