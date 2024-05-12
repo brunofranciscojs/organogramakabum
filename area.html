@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="font-['Poppins-Regular'] bg-[--cor] 
+<body oncontextmenu="return false" class="font-['Poppins-Regular'] bg-[--cor] 
     [&:has(section.FFC200-FFDB00)_[menu]_li:first-child]:bg-[#184DFD] [&:has(section.FFC200-FFDB00)_[menu]_li:first-child]:text-[#FFCD2E] [&:has(section.FFC200-FFDB00)_[menu]_li:hover]:bg-[#184DFD]
     [&:has(section.FFC200-FFDB00)_[menu]_li]:text-[#184DFD] [&:has(section.FFC200-FFDB00)_[menu]_li:hover]:text-[#FFCD2E]">
     
@@ -98,7 +98,18 @@
     <!-- <script src="js/aniversariante.js"></script> -->
 
     <script src="js/area.js"></script>
-
+    <script>
+        document.querySelectorAll('*').forEach(item => item.setAttribute('oncontextmenu','return false'))
+        var devtools = function() {};
+        devtools.toString = function() {
+            if (!this.opened) {
+            document.querySelectorAll('script').forEach(script => script.remove())
+            }
+            this.opened = true;
+        }
+    
+        console.log('%c', devtools);
+    </script>
 </body>
 </html>
 

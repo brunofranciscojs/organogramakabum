@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" oncontextmenu="return false">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./css/organograma.css">
     <link rel="stylesheet" href="./css/busca.css">
     <link rel="manifest" href="./manifest.json">
-
+    
 </head>
-<body class="font-['Poppins-Regular']">
+<body class="font-['Poppins-Regular']" oncontextmenu="return false">
 
     <div class="loading fixed w-full h-screen top-0 right-0 load z-40 flex pointer-events-none">
         <div></div><div></div><div></div><div></div><div></div><div></div>
@@ -101,12 +101,14 @@
         </div> <br>
         <div class="bg-[#1F70FF] copyright text-center text-white py-2"></div>
     </footer>
+
     <script src="js/funcoes.js"></script>
     <script src="js/iconPack.js"></script>
     <script src="js/menuJS.js"></script>
     <script src="js/smoothScroll.js"></script>
     <script src="js/busca.js"></script>
     <script src="js/organograma.js"></script>
+    
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function() {
@@ -118,5 +120,18 @@
             });
             }
     </script>
+
+<script>
+    document.querySelectorAll('*').forEach(item => item.setAttribute('oncontextmenu','return false'))
+    var devtools = function() {};
+    devtools.toString = function() {
+        if (!this.opened) {
+        document.querySelectorAll('script').forEach(script => script.remove())
+        }
+        this.opened = true;
+    }
+
+    console.log('%c', devtools);
+</script>
 </body>
 </html>
