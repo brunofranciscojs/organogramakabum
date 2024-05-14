@@ -1,6 +1,6 @@
 # ORGANOGRAMA KABUM!
 
-### PROJETO FINALIZADO, PORÉM NÃO ESTÁ LIVE, FUI DESLIGADO ANTES DE COLOCAREM NO AR.
+### PROJETO SÓ PODE SER ACESSADO NA REDE INTERNA DA EMPRESA, ESTA É UMA CÓPIA, COM DADOS FICTCIOS.
 
 
 O Projeto consiste em fazer fo fetch de um google sheets, contendo dados básicos dos funcionários da empresa.
