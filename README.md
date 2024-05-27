@@ -1,6 +1,6 @@
 # ORGANOGRAMA KABUM!
 
-### PROJETO SÓ PODE SER ACESSADO NA REDE INTERNA DA EMPRESA, ESTA É UMA CÓPIA, COM DADOS FICTCIOS.
+### PROJETO SÓ PODE SER ACESSADO NA REDE INTERNA DA EMPRESA, ESTA É UMA CÓPIA, COM DADOS FICTICIOS.
 
 
 O Projeto consiste em fazer fo fetch de um google sheets, contendo dados básicos dos funcionários da empresa.
